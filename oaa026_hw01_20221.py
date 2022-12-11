@@ -16,14 +16,12 @@ def f(x):
 
     return y
 
-
 def g(x,y):
     r = (x + 1 )**2 + (y - 4)**2
     if 2 <= x <= 4 and -4 <= x <= 5 and 4**2 < r < 6**2:
         return True
     else: 
         return False
-
 
 def h(a,b,c):
     # (bx + 5)((c**2)*(x**2)+2acx+(a**2-36)=0
